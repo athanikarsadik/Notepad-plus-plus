@@ -3,7 +3,6 @@ import java.awt.event.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.PrintWriter;
-
 import javax.swing.JMenuItem;
 import javax.swing.JTextArea;
 

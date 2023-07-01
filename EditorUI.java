@@ -1,9 +1,5 @@
 import java.awt.*;
 import java.awt.event.*;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.PrintWriter;
-
 import javax.swing.*;
 
 public class EditorUI extends JFrame{
@@ -26,11 +22,11 @@ public class EditorUI extends JFrame{
     public EditorUI()
     {
         //Jlist
-        jl2 = new JList(type);
+        jl2 = new JList<String>(type);
         jl2.setVisibleRowCount(4);
-        jl1 = new JList(size);
+        jl1 = new JList<String>(size);
         jl1.setVisibleRowCount(4);
-        jl3 = new JList(style);
+        jl3 = new JList<String>(style);
         jl3.setVisibleRowCount(3);
         JMenuBar menuB = new JMenuBar();
         menuB.setBackground(new Color(123,50,250));
