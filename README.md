@@ -12,7 +12,7 @@ This project implements a simple text editor application using Java Swing. It pr
 *Usage
 To use this application:
 
-1.Clone or download the repository to your local machine.
+1.Go to master branch and download three classes to your local machine.
 2.Compile the Notepad.java class using (javac Notepad.java).
 3.Run the Notepad.java using (java Notepad)
 4.The text editor application will open, displaying an initial empty tab for editing.
